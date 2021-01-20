@@ -1,6 +1,6 @@
 <div id="containerEmployee">
 <div id="employeeList">
-<h2>Employees LIST</h2>
+<h2>Employees</h2>
     <table>
       <tr *ngFor="let employee of employees" (click)="onSelect(employee)" [class.selected]="employee === selectedEmployee">
         <td>{{employee.name}}</td>
