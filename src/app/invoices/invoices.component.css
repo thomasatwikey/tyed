@@ -1,0 +1,16 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  border-bottom:  1px solid #ebedeb;
+}
+
+tr.invoiceLine:hover {
+  background-color: #336699;
+  cursor: pointer;
+}
