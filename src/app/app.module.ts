@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import {APP_BASE_HREF} from '@angular/common';
+import {APP_BASE_HREF, Location} from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,7 +26,9 @@ import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
     FormsModule,
     AppRoutingModule
   ],
-  // providers: [{provide: APP_BASE_HREF, useValue: '/tyed/docs'}],
+  providers: [
+  { provide: APP_BASE_HREF, useValue: window['_app_base'] || '/' },
+  ],
   bootstrap: [AppComponent]
 })
 
