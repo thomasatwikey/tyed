@@ -8,7 +8,8 @@ const routes: Routes = [
 { path: 'invoice-exit', component: InvoiceexitComponent },
 { path: 'employees', component: EmployeesComponent },
 { path: 'invoices', component: InvoicesComponent },
-{ path: 'test',   redirectTo: '/invoice-exit', pathMatch: 'full' },
+{ path: 'tyed/docs/invoice-exit', component: InvoiceexitComponent },
+{ path: 'tyed/docs/invoice-exit2',   redirectTo: '/invoice-exit', pathMatch: 'full' },
 { path: '**', component: InvoiceexitComponent },
 ];
 
