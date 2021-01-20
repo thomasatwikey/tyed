@@ -9,6 +9,8 @@ import { EmployeesComponent } from './employees/employees.component';
 import { InvoicesComponent } from './invoices/invoices.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { MessagesComponent } from './messages/messages.component';
     EmployeesComponent,
     InvoicesComponent,
     EmployeeDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    InvoiceexitComponent
   ],
   imports: [
     BrowserModule,

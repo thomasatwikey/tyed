@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
+import { EmployeesComponent } from './employees/employees.component';
+import { InvoicesComponent } from './invoices/invoices.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+{ path: 'invoice-exit', component: InvoiceexitComponent },
+{ path: 'employees', component: EmployeesComponent },
+{ path: 'invoices', component: InvoicesComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
