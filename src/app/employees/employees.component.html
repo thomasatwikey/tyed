@@ -1,7 +1,7 @@
 <div id="containerEmployee">
 <div id="employeeList">
 <h2>Employees</h2>
-  <h3>Edit on GitHub</h3>
+  <h3>Edit on IDE</h3>
     <table>
       <tr *ngFor="let employee of employees" (click)="onSelect(employee)" [class.selected]="employee === selectedEmployee">
         <td>{{employee.name}}</td>
