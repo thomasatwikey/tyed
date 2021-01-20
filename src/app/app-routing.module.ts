@@ -8,7 +8,7 @@ const routes: Routes = [
 { path: 'invoice-exit', component: InvoiceexitComponent },
 { path: 'employees', component: EmployeesComponent },
 { path: 'invoices', component: InvoicesComponent },
-{ path: '***', component: InvoiceexitComponent },
+{ path: '**', component: InvoiceexitComponent },
 ];
 
 @NgModule({
