@@ -8,8 +8,8 @@ const routes: Routes = [
 { path: 'invoice-exit', component: InvoiceexitComponent },
 { path: 'employees', component: EmployeesComponent },
 { path: 'invoices', component: InvoicesComponent },
-{ path: '/invoice-exit', component: InvoiceexitComponent },
-{ path: '/invoice-exit2',   redirectTo: '/invoice-exit', pathMatch: 'full' },
+{ path: 'invoice-exit1', component: InvoiceexitComponent },
+{ path: 'invoice-exit2',   redirectTo: '/invoice-exit', pathMatch: 'full' },
 { path: '**', component: InvoiceexitComponent },
 ];
 
