@@ -9,6 +9,7 @@ const routes: Routes = [
 { path: 'employees', component: EmployeesComponent },
 { path: 'invoices', component: InvoicesComponent },
 { path: '**', component: InvoiceexitComponent },
+{ path: '',   redirectTo: '/invoice-exit', pathMatch: 'full' },
 ];
 
 @NgModule({
