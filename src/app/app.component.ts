@@ -11,4 +11,13 @@ export class AppComponent {
   constructor(
     private route: ActivatedRoute,
   ) {}
+
+  id: string;
+
+  ngOnInit() {
+    this.route.queryParams.subscribe(params => {
+      this.id = params['id'];
+      console.log(this.id);
+    });
+  }
 }
