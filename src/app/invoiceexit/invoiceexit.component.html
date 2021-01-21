@@ -1,2 +1,6 @@
 <h1>Invoice exit</h1>
 <div [(ngModel)]="this.id" name="id" ngDefaultControl *ngIf="id != undefined">Invoice id: {{this.id}}</div>
+<div [(ngModel)]="this.state" name="state" ngDefaultControl *ngIf="state == 'paid'">
+  Thank you for the payment!
+</div>
+

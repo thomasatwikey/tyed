@@ -13,11 +13,14 @@ constructor(
   ) {}
 
   id: string ="";
+  state: string = "";
 
   ngOnInit() {
     this.route.queryParams.subscribe(params => {
-      this.id = params['id'];
+      this.id = params['id'],
+      this.state= params['state'];
       console.log(this.id);
+      console.log(this.state);
     });
   }
 }
