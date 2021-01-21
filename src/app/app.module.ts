@@ -12,6 +12,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,9 +27,7 @@ import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [
-  { provide: APP_BASE_HREF, useValue: window['_app_base'] || '/' },
-  ],
+  // providers: [{provide: APP_BASE_HREF, useValue: '/tyed/docs'}],
   bootstrap: [AppComponent]
 })
 
