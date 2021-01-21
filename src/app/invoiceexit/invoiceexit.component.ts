@@ -14,13 +14,19 @@ constructor(
 
   id: string ="";
   state: string = "";
+  title: string ="";
+  locale: string = "";
 
   ngOnInit() {
     this.route.queryParams.subscribe(params => {
       this.id = params['id'],
-      this.state= params['state'];
-      console.log(this.id);
-      console.log(this.state);
+      this.state = params['state'],
+      this.title = params['title'],
+      this.locale = params['locale'];
+      console.log("id: " + this.id);
+      console.log("state: " + this.state);
+      console.log("title: " + this.title);
+      console.log("locale: " + this.locale);
     });
   }
 }

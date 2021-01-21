@@ -1,7 +1,22 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<h1>Invoice exit</h1>
-<div [(ngModel)]="this.id" name="id" ngDefaultControl *ngIf="id != undefined">Invoice id: {{this.id}}</div>
-<div id="invoiceState" [(ngModel)]="this.state" name="state" ngDefaultControl *ngIf="state == 'paid'">
-  Thank you for the payment!
-</div>
+<div id="invoiceState" *ngIf="id != undefined" name="id" ngDefaultControl>
+  <h1>Invoice State</h1>
+  <table>
+    <tr>
+      <td>Id:</td>
+      <td>{{this.id}}</td>
+    </tr>
+    <tr>
+      <td>Title:</td>
+      <td>{{this.title}}</td>
+    </tr>
+    <tr>
+      <td>State:</td>
+      <td class="invoicestate {{state}}">{{this.state | uppercase }}</td>
+    </tr>
+    <tr>
+      <td>Language:</td>
+      <td>{{this.locale}}</td>
+    </tr>
+  </table>
 
+</div>
