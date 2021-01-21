@@ -14,5 +14,9 @@ tr.invoiceLine:hover {
   background-color: #336699;
   cursor: pointer;
 }
-
+h2 {
+  color: #369;
+  font-family: 'YuseiMagic', regular;
+  font-size: 150%;
+}
 #invoiceList { padding-right: 20px;}

@@ -1,2 +1,39 @@
-nav { font-family: 'YuseiMagic', regular; }
+.navi { font-family: 'YuseiMagic', regular;  width: 100% }
 a { text-decoration: none; color: #369; }
+
+.menuLink:hover {
+color: white;
+cursor: pointer;
+}
+
+.menuLink {
+color: white;
+text-align: left;
+width: 220px;
+height: 25px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left:10px;
+background-color: #336699;
+}
+
+.menuLink:focus {
+outline: none;
+background-color: white;
+color: #336699;
+}
+.menuLink::selected {
+outline: none;
+background-color: white;
+color: #336699;
+}
+h3 {
+background-color: white;
+height: 30px;
+margin: 0px;
+padding-top:15px;
+text-align: center;
+opacity: 0.5;
+  font-family: 'YuseiMagic', regular;
+  font-size: 100%;
+}

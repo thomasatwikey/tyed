@@ -10,6 +10,7 @@ import { InvoicesComponent } from './invoices/invoices.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
+import { WebComponent } from './web/web.component';
 
 
 
@@ -20,7 +21,8 @@ import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
     InvoicesComponent,
     EmployeeDetailComponent,
     MessagesComponent,
-    InvoiceexitComponent
+    InvoiceexitComponent,
+    WebComponent
   ],
   imports: [
     BrowserModule,

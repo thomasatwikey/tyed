@@ -11,7 +11,13 @@ export class EmployeeDetailComponent implements OnInit {
 @Input() employee: Employee;
 
   constructor() { }
+    // employee:boolean=true;
 
+
+    employeeClose(){
+        this.employee=false;
+
+    }
   ngOnInit(): void {
   }
 

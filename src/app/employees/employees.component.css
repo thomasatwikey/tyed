@@ -3,3 +3,9 @@
 #containerEmployee { width: 600px;}
 #employeeList tr.selected { color: #336699; }
 td { width: 150px;}
+
+h2 {
+  color: #369;
+  font-family: 'YuseiMagic', regular;
+  font-size: 150%;
+}
