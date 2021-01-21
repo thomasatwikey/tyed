@@ -15,7 +15,7 @@ export class EmployeeDetailComponent implements OnInit {
 
 
     employeeClose(){
-        this.employee=false;
+        this.employee=null;
 
     }
   ngOnInit(): void {
