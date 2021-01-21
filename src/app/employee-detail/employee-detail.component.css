@@ -1,3 +1,5 @@
 #employeeDetails { width: 300px; float: left; position:relative; cursor: default;}
 #employeeDetails h2 { color: #336699;}
-input, input.focus { background-color: #eab676; color: white;}
+input, input.focus {
+background-color: #336699;
+color: white;}

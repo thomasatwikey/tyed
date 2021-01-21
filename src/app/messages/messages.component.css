@@ -1,1 +1,9 @@
-#logs { width:596px; float: left; position: absolute; margin-top:200px;}
+#logs {
+width:68%;
+float: left;
+position: absolute;
+margin-top:220px;
+background-color: white;
+padding-left:10px;
+margin-left: -24px;
+}
