@@ -12,6 +12,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
 import { WebComponent } from './web/web.component';
 import { HomeComponent } from './home/home.component';
+import { NewsComponent } from './news/news.component';
 
 
 
@@ -24,7 +25,8 @@ import { HomeComponent } from './home/home.component';
     MessagesComponent,
     InvoiceexitComponent,
     WebComponent,
-    HomeComponent
+    HomeComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
