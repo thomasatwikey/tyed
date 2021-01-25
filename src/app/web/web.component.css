@@ -2,14 +2,7 @@ h2 {
   color: #369;
   font-family: 'YuseiMagic', regular;
   font-size: 150%;
-  text-align: center;
+  text-align: left;
 }
 
-img {
-height: 45%;
-width: 45%;
-}
 
-#webImage {
-text-align: center;
-}

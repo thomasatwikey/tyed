@@ -1,19 +1,13 @@
-<h1><a href="https://thomasatwikey.github.io/tyed/docs/#/">{{title}}</a></h1>
-<div id="wrapper">
-<div id="leftRegion">
- <h3>Make your choice</h3>
-  <div class="menuLink" [routerLink]="'/employees'">Employees</div>
-  <div class="menuLink" [routerLink]="'/invoices'">Invoices</div>
-  <div class="menuLink" [routerLink]="'/web'">some item..</div>
-  <div class="menuLink" [routerLink]="'/web'">some item..</div>
-  <div class="menuLink" [routerLink]="'/web'">some item..</div>
-  <div class="menuLink" [routerLink]="'/web'">some item..</div>
-  <div class="menuLink" [routerLink]="'/web'">some item..</div>
-  <div class="menuLink" [routerLink]="'/web'">some item..</div>
-  <div class="menuLink" [routerLink]="'/web'">some item..</div>
+<div id="container">
+  <div id="upperRegion">
+    <div class="logo"><a href="https://thomasatwikey.github.io/tyed/docs/#/">
+      {{title}}</a></div>
+    <div class="menuLink" [routerLink]="'/employees'">Employees</div>
+    <div class="menuLink" [routerLink]="'/invoices'">Invoices</div>
+    <div class="menuLink" [routerLink]="'/web'">some item..</div>
+  </div>
+  <div id="lowerRegion">
+    <router-outlet></router-outlet>
+  </div>
+</div>
 
-</div>
-<div id="rightRegion">
-  <router-outlet></router-outlet>
-</div>
-</div>

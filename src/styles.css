@@ -20,8 +20,8 @@ h2, h3 {
   font-weight: lighter;
 }
 body {
-  margin: 2em;
-  background-image: url("assets/backgrounds/darkmountain.jfif");
+margin: 0px;
+background-color: white;
 }
 body, input[type="text"], button {
   color: #333;
@@ -32,28 +32,3 @@ body, input[type="text"], button {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#rightRegion {
-margin-left: 10px;
-padding-left:25px;
-float: left;
-width: 70%;
-background-color: white;
-padding-top: 50px;
-padding-bottom: 20px;
-opacity: 0.9;
-}
-
-#leftRegion {
-padding-left:0px; /* 25 */
-float: left;
-border-right: solid 1px gray;
-padding-right: 0px; /* 150 */
-height: 100%;
-width: 230px;
-background-color: #336699;
-}
-
-#wrapper {
-background-color: white;
-height: 600px;
-}
