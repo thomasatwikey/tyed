@@ -1,14 +1,15 @@
-<div id="containerEmployee">
+<h1>Employees</h1>
 <div id="employeeList">
-<h2>Employees</h2>
     <table>
       <tr *ngFor="let employee of employees" (click)="onSelect(employee)" [class.selected]="employee === selectedEmployee">
         <td>{{employee.name}}</td>
         <td>{{employee.id}}</td>
       </tr>
     </table>
+  <div id="msgBox"><app-messages></app-messages></div>
+</div>
+<div id="employeeDetails">
+  <app-employee-detail [employee]="selectedEmployee"></app-employee-detail>
 </div>
 
-  <app-employee-detail [employee]="selectedEmployee"></app-employee-detail>
-  <app-messages></app-messages>
-</div>
+

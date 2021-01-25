@@ -11,12 +11,9 @@ td, th {
 }
 
 tr.invoiceLine:hover {
-  background-color: #336699;
+  background-color: #52A552;
   cursor: pointer;
 }
 h2 {
-  color: #369;
-  font-family: 'YuseiMagic', regular;
-  font-size: 150%;
 }
 #invoiceList { padding-right: 20px;}

@@ -1,10 +1,14 @@
 .news {
 border-left: 5px solid green;
-min-height: 200px;
+min-height: 50px;
 padding-left: 10px;
 float: left;
 width: 400px;
 margin-right: 25px;
+}
+
+.news h2 {
+margin-top: 0px;
 }
 
 li {
