@@ -14,6 +14,8 @@ import { WebComponent } from './web/web.component';
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
 import { DrawingsComponent } from './drawings/drawings.component';
+import { MatIconModule} from '@angular/material/icon';
+import { ComicsComponent } from './comics/comics.component'
 
 
 
@@ -28,12 +30,14 @@ import { DrawingsComponent } from './drawings/drawings.component';
     WebComponent,
     HomeComponent,
     NewsComponent,
-    DrawingsComponent
+    DrawingsComponent,
+    ComicsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule
   ],
   // providers: [{provide: APP_BASE_HREF, useValue: '/tyed/docs'}],
   bootstrap: [AppComponent]

@@ -6,9 +6,11 @@ import { InvoicesComponent } from './invoices/invoices.component';
 import { WebComponent } from './web/web.component';
 import { HomeComponent } from './home/home.component';
 import { DrawingsComponent } from './drawings/drawings.component';
+import { ComicsComponent } from './comics/comics.component';
 
 const routes: Routes = [
 { path: 'drawings', component: DrawingsComponent },
+{ path: 'comics', component: ComicsComponent },
 { path: 'invoice-exit', component: InvoiceexitComponent },
 { path: 'employees', component: EmployeesComponent },
 { path: 'invoices', component: InvoicesComponent },
