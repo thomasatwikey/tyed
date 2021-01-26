@@ -8,6 +8,8 @@
   src: url(assets/fonts/1942.ttf) format("TrueTypeFont");
     font-family: YuseiMagic;
     src: url(assets/fonts/YuseiMagic.ttf) format("TrueType");
+      font-family: PottaOne;
+      src: url(assets/fonts/PottaOne-Regular.ttf) format("TrueTypeFont");
 }
 h1 {
   color: #52A552;
