@@ -13,11 +13,12 @@ outline: none;
 }
 
 .menuLink {
-font-family: 'PottaOne', regular;
+font-family: 'PottaOne', cursive;
+font-weight: bold;
 color: #edf2ef;
 text-align: center;
 width: 100px;
-height: 20px;
+height: 25px;
 padding-top: 10px;
 padding-bottom: 10px;
 padding-left:10px;
@@ -34,6 +35,7 @@ padding-top: 10px;
 padding-bottom: 10px;
 padding-left:150px;
 padding-right: 2px;
+margin-right:50px;
 float: left;
 }
 
@@ -55,7 +57,7 @@ width: 100%;
 
 #upperRegion {
 width: 100%;
-height: 40px;
+height: 45px;
 background-color: #52A552;
 }
 
