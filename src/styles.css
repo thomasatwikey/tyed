@@ -36,3 +36,7 @@ body, input[type="text"], button {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.rightsFooter {
+color: gray;
+font-size: 10px;
+}
