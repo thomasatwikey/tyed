@@ -1,0 +1,31 @@
+.c_image, c_description {
+float: left;
+width: 50%;
+position: relative;
+}
+
+h2 {
+margin-bottom:75px;}
+
+.creation {
+margin-top: 30px;
+min-height: 500px;
+position: relative;
+padding-bottom: 25px;
+border-bottom: 1px solid #55ad79;
+}
+
+.c_image img {
+width: 100%;
+}
+
+.c_description table {
+padding-left: 2%;
+color: #52A552;
+width: 35%;
+}
+
+.c_description td {
+padding: 1%;
+text-align: left;
+}

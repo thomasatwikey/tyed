@@ -1,0 +1,29 @@
+{{url}}
+<ng-container *ngFor="let Collection of collectionItem">
+<div *ngIf="Collection.category == '{{this.url}}'" class="creation">
+  <h3>{{Collection.title}}</h3>
+  <div class="c_image">
+    <img src="assets/{{this.url}}/{{Collection.filename}}" />
+    <div class="rightsFooter">Copyright © 2021 Thomas Bée, All rights reserved.</div>
+  </div>
+  <div class="c_description">
+    <table>
+      <tr>
+        <td style="color: black;"><mat-icon>art_track</mat-icon></td>
+      </tr>
+      <tr>
+        <td>Title:</td>
+        <td>{{Collection.title}}</td>
+      </tr>
+      <tr>
+        <td>Creation:</td>
+        <td>{{Collection.createDate}}</td>
+      </tr>
+      <tr>
+        <td>Creator:</td>
+        <td>{{Collection.creator}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+</ng-container>
