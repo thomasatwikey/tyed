@@ -14,28 +14,28 @@ export class CollectionsComponent implements OnInit {
  {
      title: "Cat over bamboo",
      filename: "cat over bamboo.jpg",
-     category: "drawing",
+     category: "drawings",
      creator: "Thomas",
      createDate: "25/01/2021"
 },
  {
      title: "Dark Van Ranst: Love Edition",
      filename: "dvr love edition.jpg",
-     category: "drawing",
+     category: "drawings",
      creator: "Thomas & Sanne",
      createDate: "25/01/2021"
 },
  {
      title: "Reserved",
      filename: "placeholder.jpg",
-     category: "comic",
+     category: "drawings",
      creator: "Unknown",
      createDate: "dd/mm/yyyy"
 },
  {
      title: "Reserved",
      filename: "placeholder.jpg",
-     category: "comic",
+     category: "comics",
      creator: "Unknown",
      createDate: "dd/mm/yyyy"
 },
