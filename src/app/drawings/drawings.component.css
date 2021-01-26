@@ -1,0 +1,13 @@
+.c_image, c_description {
+float: left;
+width: 50%;
+position: relative;
+}
+
+h2 {
+margin-bottom:75px;}
+
+.creation {
+margin-top: 30px;
+min-height: 200px;
+}

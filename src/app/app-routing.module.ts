@@ -5,8 +5,10 @@ import { EmployeesComponent } from './employees/employees.component';
 import { InvoicesComponent } from './invoices/invoices.component';
 import { WebComponent } from './web/web.component';
 import { HomeComponent } from './home/home.component';
+import { DrawingsComponent } from './drawings/drawings.component';
 
 const routes: Routes = [
+{ path: 'drawings', component: DrawingsComponent },
 { path: 'invoice-exit', component: InvoiceexitComponent },
 { path: 'employees', component: EmployeesComponent },
 { path: 'invoices', component: InvoicesComponent },

@@ -13,6 +13,7 @@ import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
 import { WebComponent } from './web/web.component';
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
+import { DrawingsComponent } from './drawings/drawings.component';
 
 
 
@@ -26,7 +27,8 @@ import { NewsComponent } from './news/news.component';
     InvoiceexitComponent,
     WebComponent,
     HomeComponent,
-    NewsComponent
+    NewsComponent,
+    DrawingsComponent
   ],
   imports: [
     BrowserModule,
