@@ -8,19 +8,27 @@
   <div class="c_description">
     <table>
       <tr>
-        <td style="color: black;"><mat-icon>art_track</mat-icon></td>
-      </tr>
-      <tr>
-        <td>Title:</td>
+        <td><mat-icon> title</mat-icon></td>
         <td>{{Collection.title}}</td>
       </tr>
       <tr>
-        <td>Creation:</td>
+        <td><mat-icon>date_range</mat-icon></td>
         <td>{{Collection.createDate}}</td>
       </tr>
       <tr>
-        <td>Creator:</td>
+        <td><mat-icon>person</mat-icon></td>
         <td>{{Collection.creator}}</td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td><mat-icon> category</mat-icon></td>
+        <td>
+          <div class="tag">{{Collection.form}}</div>
+          <div class="tag">{{Collection.type}}</div>
+          <div class="tag">{{Collection.subForm}}</div>
+        </td>
       </tr>
     </table>
   </div>

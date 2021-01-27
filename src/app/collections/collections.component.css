@@ -21,11 +21,26 @@ width: 100%;
 
 .c_description table {
 padding-left: 2%;
-color: #52A552;
 width: 35%;
+  color: #658a70;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
 .c_description td {
 padding: 1%;
 text-align: left;
+}
+.tag {
+float: left;
+padding: 5px;
+margin-right: 5px;
+border: solid 1px gray;
+border-radius: 5px;
+min-width: 50px;
+text-align: center;
+color: gray;
+font-size: 15px;
+margin-top:20px;
+box-shadow: -2px 6px;
 }
