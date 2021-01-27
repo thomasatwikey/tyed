@@ -10,39 +10,62 @@ import { Observable, of } from 'rxjs';
 })
 export class CollectionsComponent implements OnInit {
 
+// Example different fields:
+     // {
+     //    title: "Reserved",
+     //     filename: "placeholder.jpg",
+     //     category: "drawings", -> comics, drawings
+     //     creator: "Unknown",
+     //     createDate: "dd/mm/yyyy",
+     //               form: "undefined", -> animal, person, object, ..
+     //               type: "undefined", -> portrait, landscape, other, ..
+     //               subForm: "undefined" -> cat, dog, men, women, baby, chair, ..
+     // }
+// End
+
  collectionItem: Collection[] = [
  {
      title: "Cat over bamboo",
      filename: "cat over bamboo.jpg",
      category: "drawings",
      creator: "Thomas",
-     createDate: "25/01/2021"
+     createDate: "25/01/2021",
+     form: "animal",
+     type: "portrait",
+     subForm: "cat"
 },
  {
      title: "Dark Van Ranst: Love Edition",
      filename: "dvr love edition.jpg",
      category: "drawings",
      creator: "Thomas & Sanne",
-     createDate: "25/01/2021"
+     createDate: "25/01/2021",
+          form: "person",
+          type: "portrait",
+          subForm: "men"
 },
  {
      title: "Reserved",
      filename: "placeholder.jpg",
      category: "drawings",
      creator: "Unknown",
-     createDate: "dd/mm/yyyy"
+     createDate: "dd/mm/yyyy",
+               form: "undefined",
+               type: "undefined",
+               subForm: "undefined"
 },
  {
      title: "Reserved",
      filename: "placeholder.jpg",
      category: "comics",
      creator: "Unknown",
-     createDate: "dd/mm/yyyy"
+     createDate: "dd/mm/yyyy",
+               form: "undefined",
+               type: "undefined",
+               subForm: "undefined"
 },
 ]
 
-//   { id: 1000127, name: 'Marc', age: 46, department: 'HR', gender: 'male', alt: 'placeholder' },
-//     { id: 1000128, name: 'Kevin', age: 33, department: 'HR', gender: 'male', alt: 'check' }
 
 constructor(
     private route: Router,
