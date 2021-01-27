@@ -17,7 +17,7 @@ import { DrawingsComponent } from './drawings/drawings.component';
 import { MatIconModule} from '@angular/material/icon';
 import { ComicsComponent } from './comics/comics.component';
 import { CollectionsComponent } from './collections/collections.component';
-import { SearchComponent } from './search/search.component'
+import { SearchComponent } from './search/search.component';
 
 
 
@@ -41,7 +41,7 @@ import { SearchComponent } from './search/search.component'
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    MatIconModule
+    MatIconModule,
   ],
   // providers: [{provide: APP_BASE_HREF, useValue: '/tyed/docs'}],
   bootstrap: [AppComponent]

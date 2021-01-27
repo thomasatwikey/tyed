@@ -1,4 +1,6 @@
 /* Application-wide Styles */
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+
 @font-face {
   font-family: 1942;
   src: url(assets/fonts/1942.ttf) format("TrueTypeFont");
