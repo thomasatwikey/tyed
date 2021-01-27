@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+import { Router, ActivatedRoute, ParamMap, NavigationEnd, } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +9,15 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 export class AppComponent {
   title = 'Tyed Project';
   constructor(
-    private route: ActivatedRoute,
+    private route: ActivatedRoute, private router: Router
   ) {}
 
   ngOnInit() {
+  this.router.events.subscribe((evt) => {
+              if (!(evt instanceof NavigationEnd)) {
+                  return;
+              }
+              window.scrollTo(0, 0)
+          });
   }
 }
