@@ -1,4 +1,10 @@
 h1 { margin-top: -45px;}
 td[class='invoicestate paid'] { color: green;}
 td[class='invoicestate undefined'] { color: red;}
-td { font-family: 'YuseiMagic', regular;}
+table {
+padding-left: 2%;
+width: 35%;
+  color: #658a70;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
