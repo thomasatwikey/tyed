@@ -16,7 +16,8 @@ import { NewsComponent } from './news/news.component';
 import { DrawingsComponent } from './drawings/drawings.component';
 import { MatIconModule} from '@angular/material/icon';
 import { ComicsComponent } from './comics/comics.component';
-import { CollectionsComponent } from './collections/collections.component'
+import { CollectionsComponent } from './collections/collections.component';
+import { SearchComponent } from './search/search.component'
 
 
 
@@ -33,7 +34,8 @@ import { CollectionsComponent } from './collections/collections.component'
     NewsComponent,
     DrawingsComponent,
     ComicsComponent,
-    CollectionsComponent
+    CollectionsComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
