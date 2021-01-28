@@ -64,6 +64,16 @@ export class CollectionsComponent implements OnInit {
                type: "undefined",
                subForm: "undefined"
 },
+ {
+     title: "Azraël Poonkie Eyes",
+     filename: "azrael uno.jpg",
+     category: "drawings",
+     creator: "Thomas",
+     createDate: "27/01/2021",
+     form: "animal",
+     type: "portrait",
+     subForm: "cat"
+},
 ]
 
 
