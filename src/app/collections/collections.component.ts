@@ -47,16 +47,6 @@ export class CollectionsComponent implements OnInit {
  {
      title: "Reserved",
      filename: "placeholder.jpg",
-     category: "drawings",
-     creator: "Unknown",
-     createDate: "dd/mm/yyyy",
-               form: "undefined",
-               type: "undefined",
-               subForm: "undefined"
-},
- {
-     title: "Reserved",
-     filename: "placeholder.jpg",
      category: "comics",
      creator: "Unknown",
      createDate: "dd/mm/yyyy",
