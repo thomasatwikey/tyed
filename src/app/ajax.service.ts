@@ -7,14 +7,26 @@ import { Observable, of } from 'rxjs';
 })
 export class AjaxService {
 
-  apiUrl = "http://securoserv.epizy.com/dedicated/index.php?event=ajax";
+  apiUrl = "https://api.beta.twikey.com/creditor";
+  apiToken = "760200C4479699F032E73B77F938A6FB44EEF81E";
+  errorMessage: string;
 
   constructor(private http: HttpClient) { }
+  body = 'Angular POST Request Example';
 
-  getCallback() {
-  this.http.get(this.apiUrl).subscribe((res:Response)=> console.log(res.json()));
-  return this.http.get(this.apiUrl);
+
+  login() {
+  this.http.post<any>(this.apiUrl, this.body).subscribe({
+  next: data => {
+  this.apiToken = data.apiToken;
+  },
+  error: error => {
+  this.errorMessage = error.message;
+  console.error('error run into: ', error);
+    }
+   })
   }
+
 }
 
   //get(): Observable<any> {

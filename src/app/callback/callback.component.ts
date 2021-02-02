@@ -15,8 +15,8 @@ export class CallbackComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  reloadCurrentRoute() {
-  this.ajaxservice.getCallback();
+  login() {
+  this.ajaxservice.login();
           console.log('function called..');
   }
 
