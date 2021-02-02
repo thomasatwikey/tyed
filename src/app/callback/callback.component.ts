@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AjaxService } from '../ajax.service';
 
 @Component({
   selector: 'app-callback',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CallbackComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+  private ajaxservice: AjaxService
+  ) { }
 
   ngOnInit(): void {
+  }
+
+  reloadCurrentRoute() {
+  this.ajaxservice.getCallback();
+          console.log('function called..');
   }
 
 }

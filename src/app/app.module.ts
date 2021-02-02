@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import {APP_BASE_HREF, Location} from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
 import { MatIconModule} from '@angular/material/icon';
 import { CallbackComponent } from './callback/callback.component';
+
 
 
 
@@ -30,6 +32,7 @@ import { CallbackComponent } from './callback/callback.component';
     FormsModule,
     AppRoutingModule,
     MatIconModule,
+    HttpClientModule,
   ],
   // providers: [{provide: APP_BASE_HREF, useValue: '/tyed/docs'}],
   bootstrap: [AppComponent]
