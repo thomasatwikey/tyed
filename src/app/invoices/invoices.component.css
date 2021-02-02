@@ -11,8 +11,9 @@ td, th {
 }
 
 tr.invoiceLine:hover {
-  background-color: #52A552;
+  background-color: #405f94;
   cursor: pointer;
+  color: white;
 }
 h2 {
 }

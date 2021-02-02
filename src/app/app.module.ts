@@ -10,14 +10,7 @@ import { InvoicesComponent } from './invoices/invoices.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
-import { WebComponent } from './web/web.component';
-import { HomeComponent } from './home/home.component';
-import { NewsComponent } from './news/news.component';
-import { DrawingsComponent } from './drawings/drawings.component';
 import { MatIconModule} from '@angular/material/icon';
-import { ComicsComponent } from './comics/comics.component';
-import { CollectionsComponent } from './collections/collections.component';
-import { SearchComponent } from './search/search.component';
 
 
 
@@ -29,13 +22,6 @@ import { SearchComponent } from './search/search.component';
     EmployeeDetailComponent,
     MessagesComponent,
     InvoiceexitComponent,
-    WebComponent,
-    HomeComponent,
-    NewsComponent,
-    DrawingsComponent,
-    ComicsComponent,
-    CollectionsComponent,
-    SearchComponent
   ],
   imports: [
     BrowserModule,

@@ -14,8 +14,12 @@
       font-family: PottaOne;
       src: url(assets/fonts/PottaOne.ttf) format("TrueTypeFont");
         }
+@font-face {
+          font-family: RobotoRegular;
+          src: url(assets/fonts/RobotoRegular.ttf) format("TrueTypeFont");
+            }
 h1 {
-  color: #52A552;
+  color: #405f94;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
@@ -59,7 +63,7 @@ position: absolute;
 
 #footer table {
 margin-left: 150px;
-color: #52A552;
+color: #405f94;
 }
 #footer td {
 padding-top: 10px;

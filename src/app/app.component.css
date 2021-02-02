@@ -4,7 +4,7 @@ a { text-decoration: none; color: white; }
 .menuLink:hover {
 color: white;
 cursor: pointer;
-background-color: #55ad79;
+background-color: #6681b0;
 }
 
 .menuLink:focus {
@@ -13,21 +13,22 @@ outline: none;
 }
 
 .menuLink {
-font-family: 'PottaOne', cursive;
+font-family: 'RobotoRegular', sans-serif;
 font-weight: bold;
 color: #edf2ef;
 text-align: center;
 width: 100px;
-height: 25px;
-padding-top: 10px;
+height: 22px;
+padding-top: 13px;
 padding-bottom: 10px;
 padding-left:10px;
 padding-right: 10px;
 float: left;
 }
 
-.menuIcon {
+.menuLink mat-icon {
 float: left;
+margin-top:-2px;
 }
 
 .logo {
@@ -35,7 +36,7 @@ color: white;
 text-align: center;
 width: 100px;
 height: 25px;
-padding-top: 10px;
+padding-top: 9px;
 padding-bottom: 10px;
 padding-left:150px;
 padding-right: 2px;
@@ -64,7 +65,7 @@ position: relative;
 #upperRegion {
 width: 100%;
 height: 45px;
-background-color: #52A552;
+background-color: #405f94;
 position: fixed;
 z-index:100;
 display: block;

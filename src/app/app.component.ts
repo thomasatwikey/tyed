@@ -7,7 +7,7 @@ import { Router, ActivatedRoute, ParamMap, NavigationEnd, } from '@angular/route
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tyed Project';
+  title = 'AdminMaster 3000';
   constructor(
     private route: ActivatedRoute, private router: Router
   ) {}
