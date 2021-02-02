@@ -11,6 +11,7 @@ import { EmployeeDetailComponent } from './employee-detail/employee-detail.compo
 import { MessagesComponent } from './messages/messages.component';
 import { InvoiceexitComponent } from './invoiceexit/invoiceexit.component';
 import { MatIconModule} from '@angular/material/icon';
+import { CallbackComponent } from './callback/callback.component';
 
 
 
@@ -22,6 +23,7 @@ import { MatIconModule} from '@angular/material/icon';
     EmployeeDetailComponent,
     MessagesComponent,
     InvoiceexitComponent,
+    CallbackComponent,
   ],
   imports: [
     BrowserModule,
