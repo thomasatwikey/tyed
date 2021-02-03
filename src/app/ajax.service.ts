@@ -14,7 +14,7 @@ export class AjaxService {
   constructor(private http: HttpClient) { }
   body = 'Angular POST Request Example';
 
-  login() {
+/*   login() {
   this.http.post<any>(this.apiUrl, this.body, {'Content-Type': 'application/json'}).subscribe({
   next: data => {
   this.apiToken = data.apiToken;
@@ -24,7 +24,7 @@ export class AjaxService {
   console.error('error run into: ', error);
     }
    })
-  }
+  } */
 
 }
 

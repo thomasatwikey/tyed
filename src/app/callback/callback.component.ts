@@ -14,9 +14,9 @@ export class CallbackComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  login() {
+/*   login() {
   this.ajaxservice.login();
           console.log('function called..');
-  }
+  } */
 
 }

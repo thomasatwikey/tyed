@@ -19,5 +19,9 @@ export class AppComponent {
               }
               window.scrollTo(0, 0)
           });
+              this.router.events.forEach((event) => {
+            console.log(event);
+          });
   }
+
 }
