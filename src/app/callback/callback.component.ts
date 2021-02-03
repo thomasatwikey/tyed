@@ -11,7 +11,6 @@ export class CallbackComponent implements OnInit {
   constructor(
   private ajaxservice: AjaxService
   ) { }
-
   ngOnInit(): void {
   }
 
